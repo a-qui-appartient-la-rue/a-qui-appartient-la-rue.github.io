@@ -338,6 +338,30 @@
 		padding: 0.5rem 0 0 0.5rem;
 	}
 
+  .navbar {
+  overflow: hidden;
+  background-color: rgba(44, 40, 44, 0.493);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change background on mouse-over */
+.navbar a:hover {
+  background:  rgba(170, 124, 175, 0.925);
+  color: white;
+}
+
+
+
 	.row.uniform.\32 5\25 {
 		margin: -0.5rem 0 -1px -0.5rem;
 	}
@@ -1689,6 +1713,10 @@
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 	}
+
+  h2 {
+     padding-top : 70px;
+  }
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
